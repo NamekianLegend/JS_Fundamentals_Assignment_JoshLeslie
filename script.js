@@ -61,15 +61,13 @@ for (let i = 0; i <= 10; i++) {
   document.write(`<h4>${i}</h4>`);
 }
 document.write("<h3>While Loop</h3>");
-let num = 0;
-while (true) {
+let num;
+do {
   num = prompt("Enter a number greater than 10: ");
   num = Number(num);
   alert(`You entered ${num}!`);
-  if (num > 10) {
-    break;
-  }
 }
+while (num <= 10); 
 document.write("<h4>You entered a number greater than 10!</h4>");
 document.write(`<h4>It was ${num}!</h4>`);
 
