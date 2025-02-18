@@ -1,3 +1,14 @@
+/*
+ * ===========================================================
+ * Name: Josh Leslie
+ * Date: 2025-02-10
+ * Course: Client Side Programming
+ * Assignment #1 JS Fundamentals
+ * ===========================================================
+*/
+
+
+
 document.write("<h1>JavaScript Fundamentals Assignment</h1>");
 document.write("<h2>Part 1: Variables, Data Types, and Type Casting</h2>");
 let studentName = "King Piccolo";
